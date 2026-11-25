@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">My Notes</string>
+    <string name="storage_label">Active storage:</string>
+    <string name="storage_sqlite">SQLite (Primary)</string>
+    <string name="storage_file">File (Secondary)</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_add_note">Add note</string>
+    <string name="empty_notes_title">No notes yet</string>
+    <string name="empty_notes_subtitle">Tap + to create a note in the selected storage.</string>
+    <string name="note_updated_format">Updated: %1$s</string>
+
+    <!-- Sync dialog & feedback -->
+    <string name="sync_dialog_title">Synchronize Notes</string>
+    <string name="sync_primary_to_secondary">Primary (SQLite) → Secondary (File)</string>
+    <string name="sync_secondary_to_primary">Secondary (File) → Primary (SQLite)</string>
+    <string name="sync_two_way_merge">Two-Way Merge (keep newest)</string>
+    <string name="sync_result_message">Synchronized %1$d note(s).</string>
+
+    <!-- Delete dialog & feedback -->
+    <string name="action_delete">Delete</string>
+    <string name="delete_dialog_title">Delete Note</string>
+    <string name="delete_dialog_message">Are you sure you want to delete \"%1$s\"?</string>
+    <string name="cancel">Cancel</string>
+    <string name="note_deleted">Note deleted.</string>
+
+    <!-- NoteEditorActivity -->
+    <string name="editor_title_new">New Note</string>
+    <string name="editor_title_edit">Edit Note</string>
+    <string name="hint_note_title">Title</string>
+    <string name="hint_note_content">Content</string>
+    <string name="action_save">Save</string>
+    <string name="note_saved">Note saved.</string>
+    <string name="note_not_found">Note not found.</string>
+    <string name="error_empty_title">Title cannot be empty.</string>
+    <string name="error_empty_content">Content cannot be empty.</string>
+    <string name="error_storage_operation">Storage operation failed. Please try again.</string>
+</resources>

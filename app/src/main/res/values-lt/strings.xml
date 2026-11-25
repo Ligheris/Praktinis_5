@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Užrašai</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">Mano užrašai</string>
+    <string name="storage_label">Aktyvi saugykla:</string>
+    <string name="storage_sqlite">SQLite (Pirminė)</string>
+    <string name="storage_file">Failas (Antrinė)</string>
+    <string name="action_sync">Sinchronizuoti</string>
+    <string name="action_add_note">Pridėti užrašą</string>
+    <string name="empty_notes_title">Užrašų dar nėra</string>
+    <string name="empty_notes_subtitle">Paspauskite +, kad sukurtumėte užrašą pasirinktoje saugykloje.</string>
+    <string name="note_updated_format">Atnaujinta: %1$s</string>
+
+    <!-- Sync dialog & feedback -->
+    <string name="sync_dialog_title">Sinchronizuoti užrašus</string>
+    <string name="sync_primary_to_secondary">Pirminė (SQLite) → Antrinė (Failas)</string>
+    <string name="sync_secondary_to_primary">Antrinė (Failas) → Pirminė (SQLite)</string>
+    <string name="sync_two_way_merge">Abipusis sujungimas (išsaugoti naujausius)</string>
+    <string name="sync_result_message">Sinchronizuota užrašų: %1$d.</string>
+
+    <!-- Delete dialog & feedback -->
+    <string name="action_delete">Ištrinti</string>
+    <string name="delete_dialog_title">Ištrinti užrašą</string>
+    <string name="delete_dialog_message">Ar tikrai norite ištrinti „%1$s“?</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="note_deleted">Užrašas ištrintas.</string>
+
+    <!-- NoteEditorActivity -->
+    <string name="editor_title_new">Naujas užrašas</string>
+    <string name="editor_title_edit">Redaguoti užrašą</string>
+    <string name="hint_note_title">Pavadinimas</string>
+    <string name="hint_note_content">Turinys</string>
+    <string name="action_save">Išsaugoti</string>
+    <string name="note_saved">Užrašas išsaugotas.</string>
+    <string name="note_not_found">Užrašas nerastas.</string>
+    <string name="error_empty_title">Pavadinimas negali būti tuščias.</string>
+    <string name="error_empty_content">Turinys negali būti tuščias.</string>
+    <string name="error_storage_operation">Saugyklos operacija nepavyko. Bandykite dar kartą.</string>
+</resources>
